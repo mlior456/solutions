@@ -1,0 +1,219 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+
+@font-face {
+    font-family: "Hanken Grotesk";
+    src: url("https://fonts.google.com/specimen/Hanken+Grotesk");
+}
+
+.container {
+    border: 1px solid black;
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+
+}
+
+.results {
+    border: 1px solid black;
+    width: 240px;
+    height: 350px;
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+    border-block-end-width: 5px;
+    border-right-style: hidden;
+    box-shadow: 0 0 0 0 rgba(83, 14, 14, 0.8);
+}
+
+.results h6 {
+    color: silver;
+    font-size: 14px;
+}
+
+.summary {
+    border: 1px solid black;
+    border-block-end-width: 5px;
+    width: 280px;
+    height: 350px;
+    background: linear-gradient();
+    border-top-left-radius: 0% !important;
+    border-bottom-left-radius: 0% !important;
+    left: -20px;
+    position: relative;
+    border-left-style: hidden;
+    box-shadow: 0 0 20px 0 rgba(83, 14, 14, 0.8);
+    z-index: -1;
+    
+}
+
+.summary,.results {
+    border-radius: 10%;
+}
+
+.circle{
+    border: 1px solid black;
+    width: 50%;
+    height: 30%;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50%;
+    position: relative;
+    left: 25%;
+    text-indent: 0px;
+    overflow: hidden;
+}
+
+.numbers {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    top: 25%;
+}
+
+#description {
+    color: hsl(0, 0%, 100%);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.of-100 {
+    color: silver;
+    font-size: 14px;
+}
+
+.description-text {
+    text-align: center;
+    line-height: 20px;
+    width: 85%;
+    position: relative;
+    left: 7.5%;
+    color: silver;
+    font-size: 16px;
+    font-weight: 500;
+}
+
+strong[class="76"] {
+    font-size: 34px;
+}
+
+.summary h6 {
+    text-align: left;
+    position: relative;
+    left: 15%;
+    font-size: 14px;
+    color: black;
+}
+
+.reaction,.memory,.verbal,.visual {
+    border: 1px solid hidden;
+    width: 65%;
+    text-align: center;
+    display: inline-block;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-radius: 10px;
+    position: relative; 
+    top: -3px;
+    left: 40px !important;
+}
+
+.reaction {
+    background-color: hsl(0, 100%, 67%, 0.1);
+    display: flex;
+    position: relative;
+    left: 8%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+}
+
+.memory {
+    background-color: hsl(39, 100%, 56%, 0.1);
+    display: flex;
+    position: relative;
+    left: 8%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.verbal {
+    background-color: hsl(166, 100%, 37%, 0.1);
+    display: flex;
+    position: relative;
+    left: 8%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.visual {
+    background-color: hsl(234, 85%, 45%, 0.1);
+    display: flex;
+    position: relative;
+    left: 8%;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+}
+
+.reaction .job {
+    color: hsl(0, 100%, 67%);
+    font-weight: bold;
+    margin-right: 25px;
+    padding-left: 3px;
+}
+
+.memory .job {
+    color: hsl(39, 100%, 56%);
+    font-weight: bold;
+    margin-right: 30px;
+    padding-left: 3px;
+}
+
+.verbal .job {
+    color: hsl(166, 100%, 37%);
+    font-weight: bold;
+    margin-right: 45px;
+    padding-left: 3px;
+}
+
+.visual .job {
+    color: hsl(234, 85%, 45%);
+    font-weight: bold;
+    margin-right: 45px;
+    padding-left: 3px;
+}
+
+.btn {
+    width: 72.5%;
+    padding: 10px;
+    border-radius: 30px;
+    background-color: hsl(224, 30%, 27%);
+    color: silver;
+    font-size: 12px;
+    font-weight: bold;
+    letter-spacing: 1px;
+    cursor: pointer;
+    border-style: hidden;
+}
+
+.btn:hover {
+    background: linear-gradient(hsl(252, 100%, 67%), hsl(241, 81%, 54%));
+}
+
+.icon {
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    top:  50%;
+}
